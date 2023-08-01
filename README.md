@@ -15,14 +15,30 @@ Your program should expect a text file as input with each line in the text file 
 
 ## Output
 
-Your program should output to the console the two intersecting lines in the same format as the input file, the minimum angle at intersection (in degrees), and the point at which they intersect.
+Your program should output to the console the two intersecting lines that have the smallest angle between them (as compared to all other line intersections in the set) in the same format as the input file, the minimum angle at intersection (in degrees), and the point at which they intersect.
 
 ### Example
 
 ```
 Line 1: 1,1;10,10
 Line 2: 1,10;10,1
-Intersection Angle: 45.004423
-Intersection Point: 5,5
+Intersection Angle: 45.0
+Intersection Point: 5.5,5.5
 ```
 
+## Considerations
+
+## Rubric
+
+* Readability: variables, functions, and classes are named clearly indicating their purpose
+* Correctness: the code solves the problem as described by the requirements
+* Testing: appropriate tests are included to ensure that the code works correctly
+* Repeatability: the code includes instructions and dependency expectations for us to run it locally on our side.
+
+## Timing
+
+We believe this problem should take between one and four hours to complete. If you find yourself at the four hour mark and have not finished, stop and send in what you have.
+
+## Submission
+
+Send a .zip file or a link to your git repository to rsmith@pivotbio.com by at least the night before your review session. We will review the code and test a number of edge cases before the session. Good luck!
